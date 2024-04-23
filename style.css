@@ -1,0 +1,7 @@
+:root {
+    --primary-blue: #0697F2;
+}
+.navigation {
+    display: flex;
+    background: var(--primary-blue);
+}
