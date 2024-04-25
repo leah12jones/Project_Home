@@ -1,7 +1,39 @@
 :root {
     --primary-blue: #0697F2;
+    --secondary-orange: #F15E22;
+    --secondary-pink: #D98A6B;
+    --secondary-yellow: #F6D36B;
+    --dark-blue: #01243A;
+    --light-tan: #F0E6CB;
 }
 .navigation {
     display: flex;
     background: var(--primary-blue);
+}
+
+.container {
+    display: flex;
+}
+
+.ourmessage {
+    display:flex;
+}
+
+.right-col {
+    background-color: #D98A6B;
+    color: white;
+}
+
+.homelessness {
+    display: flex;
+    background-color: var(--secondary-yellow);
+    color:#01243A;
+}
+
+.helpsection {
+    background-color: var(--light-tan);
+}
+
+.card1 {
+    background-color: var(--primary-blue);
 }
