@@ -32,8 +32,13 @@
 
 .helpsection {
     background-color: var(--light-tan);
+    color: white;
 }
 
 .card1 {
     background-color: var(--primary-blue);
+}
+
+.waystohelp {
+    color:#01243A;
 }
