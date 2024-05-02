@@ -11,12 +11,11 @@
     background: var(--primary-blue);
 }
 
-.container {
-    display: flex;
-}
-
 .ourmessage {
     display:flex;
+}
+
+.left-col {
 }
 
 .right-col {
