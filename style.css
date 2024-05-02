@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --primary-blue: #0697F2;
     --secondary-orange: #F15E22;
@@ -6,10 +8,23 @@
     --dark-blue: #01243A;
     --light-tan: #F0E6CB;
 }
+
 .navigation {
     display: flex;
     background: var(--primary-blue);
     flex-direction: space-between;
+}
+
+.navigation h1 {
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.waystohelp h1 {
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 3em;
 }
 
 .herosection {
@@ -24,6 +39,17 @@
     align-items: center;
     background-color: var(--light-tan);
     padding: 4em;
+    color: white;
+}
+
+.center-container h1 {
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px; 
+}
+
+.center-container p {
+    font-family: 'jost', sans-serif;
 }
 
 .card1 {
@@ -31,6 +57,31 @@
     width: 70%;
     border-radius: 25px;
     padding: 2em;
+}
+
+.right-col {
+    padding:5em;
+}
+
+.right-col h1 {
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.right-col p {
+    font-family: 'jost', sans-serif;
+    margin-right: 2em;
+}
+
+.left-col h1 {
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.left-col p {
+    font-family: 'jost', sans-serif;
 }
 
 .pink-background {
@@ -49,8 +100,7 @@ color: white;
     gap: 1em;
 }
 
-.left-col {
-}
+
 
 .right-col {
     background-color: #D98A6B;
@@ -68,10 +118,24 @@ color: white;
     color: white;
 }
 
-
-
 .waystohelp {
     color:#01243A;
+}
+
+.two-col-container h1{
+     font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.two-col-container h2{
+    font-family: 'jost', sans-serif;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.two-col-container p{
+    font-family: 'jost', sans-serif;
 }
 
 button {
