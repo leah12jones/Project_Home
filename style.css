@@ -12,8 +12,41 @@
     flex-direction: space-between;
 }
 
-.ourmessage {
-    display:flex;
+.herosection {
+    background: url(./hero.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-tan);
+    padding: 4em;
+}
+
+.card1 {
+    background-color: var(--primary-blue);
+    width: 70%;
+    border-radius: 25px;
+    padding: 2em;
+}
+
+.pink-background {
+    background-color: var(--secondary-pink);
+}
+
+.blue-background {
+background-color: var(--dark-blue);
+color: white;
+}
+
+.two-col-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 
 .left-col {
@@ -35,10 +68,23 @@
     color: white;
 }
 
-.card1 {
-    background-color: var(--primary-blue);
-}
+
 
 .waystohelp {
     color:#01243A;
 }
+
+button {
+        padding: 8px 15px;
+        margin: 20px;
+        border-radius: 30px;
+        background: #0697F2;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+}
+
+.footer {
+          background: var(--primary-blue);
+          display: flex;
+      }
