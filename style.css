@@ -9,6 +9,7 @@
 .navigation {
     display: flex;
     background: var(--primary-blue);
+    flex-direction: space-between;
 }
 
 .ourmessage {
