@@ -15,10 +15,12 @@
     background: var(--primary-blue);
     color: white;
     justify-content: space-between;
+    padding-left: 3em;
 }
 
 ul {
     display: flex;
+    padding-top: 2em;
 }
 
 ul li {
@@ -52,6 +54,24 @@ ul li a {
     height: 90vh;
 }
 
+.container-homelessness {
+    padding: 1.3em;
+    display: flex;
+}
+
+.container-homelessness h1{
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 3em;
+    padding-left: .9em;
+}
+
+.container-homelessness p{
+    font-family: 'jost', sans-serif;
+    padding-left: .9em
+}
+
 .center-container {
     display: flex;
     justify-content: center;
@@ -73,9 +93,24 @@ ul li a {
 
 .card1 {
     background-color: var(--primary-blue);
-    width: 70%;
+    width: 60%;
     border-radius: 25px;
     padding: 2em;
+}
+
+.card1 h1 {
+    text-align: center;
+}
+
+.card1 p {
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.right-col2 {
+    margin-top: 5.3em;
+    margin-right: 6em;
 }
 
 .right-col h1 {
@@ -89,13 +124,17 @@ ul li a {
     margin-right: 2em;
 }
 
-.left-col h1 {
+.left-col-homelessness {
+    padding: 4em;
+}
+
+.left-col-homelessness h1 {
     font-family: 'jost', sans-serif;
     font-weight: bold;
     font-size: 36px;
 }
 
-.left-col p {
+.left-col-homelessness p {
     font-family: 'jost', sans-serif;
 }
 
@@ -126,6 +165,12 @@ color: white;
     display: flex;
     background-color: var(--secondary-yellow);
     color:#01243A;
+    padding-bottom: 5em;
+}
+
+.left-col p {
+    padding-right: 3em;
+    padding-left: 2.1em;
 }
 
 .helpsection {
@@ -135,6 +180,8 @@ color: white;
 
 .waystohelp {
     color:#01243A;
+    padding-left: 3em;
+    padding-bottom: 6em;
 }
 
 .h1-waystohelp {
@@ -153,14 +200,24 @@ color: white;
     padding: 4em;
 }
 
+.left-col-solutions h1 {
+    padding-left: 0.9em;
+}
+
+.two-col-container {
+    padding-right: 4em;
+}
+
 .two-col-container h2{
     font-family: 'jost', sans-serif;
    font-weight: bold;
    font-size: 24px;
+   padding-left: 1.3em;
 }
 
 .two-col-container p{
     font-family: 'jost', sans-serif;
+    padding: 2em;
 }
 
 button {
