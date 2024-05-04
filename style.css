@@ -23,9 +23,15 @@ padding:0;
     padding-left: 3em;
 }
 
+.logo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 ul {
     display: flex;
     padding-top: 2em;
+    padding-right: 3em;
 }
 
 ul li {
@@ -160,6 +166,10 @@ color: white;
     gap: 1em;
 }
 
+.two-col-containertwo {
+    padding: 2em;
+}
+
 
 
 .right-col {
@@ -206,10 +216,6 @@ color: white;
 }
 
 
-.two-col-container{
-margin: 2em;
-}
-
 .two-column-container-content {
 padding: 2em;
 }
@@ -223,6 +229,11 @@ padding: 2em;
 
 .two-col-container p{
     font-family: 'jost', sans-serif;
+}
+
+.right-col-solutions {
+    padding: 3em;
+    padding-right: 4em;
 }
 
 button, .btn {
@@ -288,6 +299,8 @@ button, .btn {
           display: flex;
       }
       
+
+
       form input {
         padding: 5px;
         width: 100%;
@@ -314,4 +327,29 @@ button, .btn {
             display:block;
         }
 
-      }
+        .navigation {
+            display:block;
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        .logo {
+            text-align: center;
+            padding-right: 3.5em;
+            padding-top: 3em;
+        }
+
+        ul {
+            display: block;
+            padding-right: 3em;
+            text-align: center;
+        }
+        
+        ul li {
+            list-style-type: none;
+        }
+
+        img {
+            display: flex;
+        }
+
