@@ -10,6 +10,11 @@
     --less-dark-blue: #004D7D;
 }
 
+*{
+margin:0;
+padding:0;
+}
+
 .navigation {
     display: flex;
     background: var(--primary-blue);
@@ -41,6 +46,10 @@ ul li a {
     font-size: 36px;
 }
 
+img {
+    display: block;
+}
+
 .waystohelp h1 {
     font-family: 'jost', sans-serif;
     font-weight: bold;
@@ -57,6 +66,7 @@ ul li a {
 .container-homelessness {
     padding: 1.3em;
     display: flex;
+    padding-left: 5em;
 }
 
 .container-homelessness h1{
@@ -69,7 +79,12 @@ ul li a {
 
 .container-homelessness p{
     font-family: 'jost', sans-serif;
-    padding-left: .9em
+}
+
+.left-col-homelessness h1 {
+    font-family: 'jost', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
 }
 
 .center-container {
@@ -96,6 +111,11 @@ ul li a {
     width: 60%;
     border-radius: 25px;
     padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .card1 h1 {
@@ -122,20 +142,6 @@ ul li a {
 .right-col p {
     font-family: 'jost', sans-serif;
     margin-right: 2em;
-}
-
-.left-col-homelessness {
-    padding: 4em;
-}
-
-.left-col-homelessness h1 {
-    font-family: 'jost', sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-.left-col-homelessness p {
-    font-family: 'jost', sans-serif;
 }
 
 .pink-background {
@@ -180,8 +186,7 @@ color: white;
 
 .waystohelp {
     color:#01243A;
-    padding-left: 3em;
-    padding-bottom: 6em;
+    padding: 6em;
 }
 
 .h1-waystohelp {
@@ -200,37 +205,113 @@ color: white;
     padding: 4em;
 }
 
-.left-col-solutions h1 {
-    padding-left: 0.9em;
+
+.two-col-container{
+margin: 2em;
 }
 
-.two-col-container {
-    padding-right: 4em;
+.two-column-container-content {
+padding: 2em;
 }
+
 
 .two-col-container h2{
     font-family: 'jost', sans-serif;
    font-weight: bold;
    font-size: 24px;
-   padding-left: 1.3em;
 }
 
 .two-col-container p{
     font-family: 'jost', sans-serif;
-    padding: 2em;
 }
 
-button {
+button, .btn {
         padding: 8px 15px;
-        margin: 20px;
         border-radius: 30px;
-        background: #0697F2;
+        background: pink;
         text-transform: uppercase;
         color: white;
         border: none;
+        text-decoration: none;
+        font-family: 'jost', sans-serif;
+        
 }
 
 .footer {
           background: var(--primary-blue);
           display: flex;
+      }
+
+
+     
+      .form1{
+          padding-top: 5em;
+          padding-left: 23em;
+        background-color: #004D7D;
+      }
+
+      .form2{
+        padding-top: 5em;
+        padding-left: 23em;
+      background-color: #004D7D;
+      padding-bottom: 8em;
+    }
+      
+        
+      
+    form h3 {
+          text-align: center;
+    }
+      
+      form {
+        width: 600px;
+        background: #d98a6b;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        border-radius: 15px;
+        color: white;
+        font-family: 'jost', sans-serif;
+      }
+      
+      form div {
+        margin: 20px;
+      }
+      
+      label {
+        line-height: 2;
+        font-size: 0.9em;
+      }
+
+      .card-details {
+          display: flex;
+      }
+      
+      form input {
+        padding: 5px;
+        width: 100%;
+        border: none;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 2px 2px #9e644d;
+      }
+
+
+
+
+
+
+
+
+
+
+
+/* css rules for mobile */
+
+      @media screen and (max-width:600px) {
+        .center-container {
+            display:block;
+        }
+
       }
