@@ -134,6 +134,11 @@ img {
     padding-right: 5em;
 }
 
+.right-col {
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
 .right-col2 {
     margin-top: 5.3em;
     margin-right: 6em;
@@ -154,6 +159,8 @@ img {
     background-color: var(--secondary-pink);
 }
 
+
+
 .blue-background {
 background-color: var(--less-dark-blue);
 color: white;
@@ -164,10 +171,6 @@ color: white;
     align-items: center;
     justify-content: center;
     gap: 1em;
-}
-
-.two-col-containertwo {
-    padding: 2em;
 }
 
 
@@ -185,7 +188,7 @@ color: white;
 }
 
 .left-col p {
-    padding-right: 3em;
+    padding-right: 9em;
     padding-left: 2.1em;
 }
 
@@ -210,9 +213,12 @@ color: white;
     font-weight: bold;
     font-size: 36px;
 }
+.two-col-container p {
+    padding-bottom: 2em;
+}
 
 .left-col-solutions {
-    padding: 4em;
+    padding: 5em;
 }
 
 
@@ -232,14 +238,13 @@ padding: 2em;
 }
 
 .right-col-solutions {
-    padding: 3em;
-    padding-right: 4em;
+  padding: 6em;
 }
 
 button, .btn {
         padding: 8px 15px;
         border-radius: 30px;
-        background: pink;
+        background: var(--primary-blue);
         text-transform: uppercase;
         color: white;
         border: none;
@@ -295,12 +300,6 @@ button, .btn {
         font-size: 0.9em;
       }
 
-      .card-details {
-          display: flex;
-      }
-      
-
-
       form input {
         padding: 5px;
         width: 100%;
@@ -310,11 +309,41 @@ button, .btn {
         box-shadow: 2px 2px #9e644d;
       }
 
+      .info {
+          text-align: center;
+          padding: 3em;
+      }
 
+      .info h1 {
+          padding-bottom: 2em;
+      }
 
+      .info p {
+          padding-left: 10em;
+          padding-right: 10em;
+      }
 
+      .address-lines {
+          display: flex;
+          padding: 3em;
+          justify-content: space-between;
+      }
 
+      .address-line-one {
+          padding-left: 10em;
+      }
 
+      .address-line-two {
+          align-text: center;
+      }
+
+      .address-line-three {
+          padding-right: 10em;
+      }
+
+      .locations {
+          padding-top: 2em;
+      }
 
 
 
@@ -349,7 +378,16 @@ button, .btn {
             list-style-type: none;
         }
 
-        img {
-            display: flex;
+        .two-col-container {
+            display: block;
         }
 
+        .right-col {
+            padding: 3em;
+            text-align: center;
+        }
+
+        .homelessness {
+            display: block;
+            text-align: center;
+        }
