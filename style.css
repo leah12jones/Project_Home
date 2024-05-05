@@ -312,25 +312,38 @@ button, .btn {
       .info {
           text-align: center;
           padding: 3em;
+          background-color:#004D7D;
+          color: white;
+          font-family: "jost";
       }
 
       .info h1 {
           padding-bottom: 2em;
+          padding-top: 3em;
+      }
+
+      .info h3 {
+          padding-top: 3em;
       }
 
       .info p {
-          padding-left: 10em;
-          padding-right: 10em;
+          padding-left: 12.5em;
+          padding-right: 12.5em;
       }
 
       .address-lines {
           display: flex;
           padding: 3em;
           justify-content: space-between;
+          font-family: 'jost';
+          color: white;
+          background-color:#004D7D;
+          padding-bottom: 5em;
+          text-align: center;
       }
 
       .address-line-one {
-          padding-left: 10em;
+          padding-left: 6em;
       }
 
       .address-line-two {
@@ -345,6 +358,18 @@ button, .btn {
           padding-top: 2em;
       }
 
+      ol li {
+          list-style-type: none;
+          padding-bottom: 1.5em;
+      }
+
+      .questions {
+         color: white;
+         background-color:#004D7D;
+         padding-bottom: 5em;
+         text-align: center;
+         font-family: 'jost';
+      }
 
 
 
