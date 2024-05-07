@@ -252,10 +252,6 @@ button, .btn {
         font-weight: bold;
 }
 
-.navigation btn {
-    color: black;
-}
-
 .footer {
           background: var(--primary-blue);
           display: flex;
@@ -420,4 +416,16 @@ button, .btn {
       }
         .card1 {
             width: 19em;
+        }
+
+        .card1 p {
+            padding: .5em;
+        }
+
+        .h1-waystohelp {
+            padding-right: 6em;
+        }
+
+        .two-col-container {
+            padding-right: 3em;
         }
