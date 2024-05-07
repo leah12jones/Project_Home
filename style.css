@@ -173,8 +173,6 @@ color: white;
     gap: 1em;
 }
 
-
-
 .right-col {
     background-color: #D98A6B;
     color: white;
@@ -186,6 +184,7 @@ color: white;
     color:#01243A;
     padding-bottom: 5em;
 }
+
 
 .left-col p {
     padding-right: 9em;
@@ -257,8 +256,7 @@ button, .btn {
           background: var(--primary-blue);
           display: flex;
       }
-
-
+ 
      
       .form1{
           padding-top: 5em;
@@ -348,6 +346,7 @@ button, .btn {
 
       .address-line-two {
           align-text: center;
+          padding-left: 6em;
       }
 
       .address-line-three {
@@ -412,7 +411,9 @@ button, .btn {
             text-align: center;
         }
 
-        .homelessness {
-            display: block;
-            text-align: center;
+      .container-homelessness {
+          display: block;
+      }
+        .card1 {
+            width: 19em;
         }
